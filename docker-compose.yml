@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  valgrind:
+    build: .
+    volumes:
+      - './volume:/root/volume'
+    tty: true
