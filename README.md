@@ -23,18 +23,15 @@ Por ejemplo si tienes la carpeta
     │   │
     │   └Makefile
 ```
-Tendras que ejecutar 
-```
-docker compose run myContainer /bin/bash
-```
-Desde este punto, los comandos son ejecutados *Dentro* del container
+
+los comandos son ejecutados *Dentro* del container (con el comando mencionado anteriormente)
 
 ```
 cd ~/volume # ir a carpeta volume (Importante)
 cd code/ # entrar a la carpeta que deseamos
 make
-./archivo # ejecutar ejecutar el ejecutable 
-valgrind ./archivo #ejecutar valgrind
+./program # ejecutar ejecutar el ejecutable 
+valgrind ./program #ejecutar valgrind
 ```
 
 
