@@ -4,7 +4,7 @@
 
 1. Instala Docker y docker-compose. En macOS basta con instalar [docker desktop](https://docs.docker.com/desktop/mac/install/).
 2. Verifica que tienes docker instalado con `docker -v`
-3. Clona este repositorio: `git clone https://github.com/rieg-ec/valgrind-docer && cd valgrind-docker`. corre `docker compose up -d` dentro del directorio clonado.
+3. Clona este repositorio: `git clone https://github.com/rieg-ec/valgrind-docker && cd valgrind-docker`. corre `docker compose up -d` dentro del directorio clonado.
 (Ojo. Es nescesario ejecutar `docker compose up -d` cada vez que quieras utilizar esto, aunque solo se demorara la primera vez)
 
 ## Cómo usar
